@@ -25,7 +25,6 @@
     "packageRules": [
         {"matchDepTypes": ["require"], "rangeStrategy": "widen"},
         {"matchPackagePatterns": ["^webinertia/"], "groupSlug": "webinertia", "groupName": "Webinertia packages"},
-        {"matchPackagePatterns": ["^webinertia/limatus"], "groupSlug": "limatus", "groupName": "Limatus packages"},
         {
             "matchPackageNames": ["php"],
             "allowedVersions": "^8.0",
